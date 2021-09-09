@@ -1,0 +1,11 @@
+#spinnerBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh
+}
+#spinner{
+  color: #F2CB05 ;
+  font-size:100px;
+  margin: auto
+}

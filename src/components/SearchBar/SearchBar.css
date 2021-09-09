@@ -1,0 +1,41 @@
+.cnt{
+    padding-top: 10px
+}
+.form-container{
+    display:flex;
+    align-items: center
+}
+.form-container button{
+    margin-left: 1rem
+}
+#search{
+    background: #F2CB05 !important;
+    color: #D90D43
+}
+#search:hover{
+    background: #F2B705 !important
+}
+#delete{
+    background: #F2CB05 !important;
+    color: #D90D43
+}
+#delete:hover{
+    background: #F2B705 !important
+}
+#divContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem
+}
+
+@media(max-width: 560px){
+    #divContainer{
+        display: flex;
+        justify-content: flex-end;
+        margin: 2rem 1rem;
+        width: 115vw;
+    }
+    #container{
+        width: 125vw
+    }
+  }

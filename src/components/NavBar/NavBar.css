@@ -1,0 +1,42 @@
+.navBar{
+    height: 56px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #D90D43;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    box-sizing: border-box
+}
+.list{
+    list-style: none
+}
+.list-item a{
+    color: white;
+    text-decoration: none;
+    padding: 16px 10px;
+    font-size: 1.2rem;
+    list-style: none;
+    font-weight: bolder
+}
+#movies{
+    color: whitesmoke;
+    margin: auto;
+    margin-right: 1rem;
+    font-size: x-large;
+    font-weight: bolder
+}
+.list-item a:hover,
+.list-item a.active{
+    background-color: transparent !important;
+    color: whitesmoke !important
+}
+@media(max-width: 560px){
+    .navBar{
+       width: 125vw;
+       padding: 0 2rem;
+    }
+  }

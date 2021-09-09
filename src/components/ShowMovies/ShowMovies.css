@@ -1,0 +1,19 @@
+#buttonFav{
+  background: #F2CB05 !important;
+  color: #D90D43;
+  position: absolute;
+  font-size: 1rem;
+  font-weight: bold
+}
+#showMovies{
+  margin: auto;
+  color: rgb(83, 83, 83);
+  margin-top: 1.5rem;
+  font-size: xx-large;
+  font-weight: bolder
+}
+@media(max-width: 560px){
+  #showMovies{
+     font-size: x-large
+  }
+}
